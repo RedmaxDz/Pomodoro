@@ -1,0 +1,113 @@
+
+body{
+
+    margin: 0;
+    background: url('bg2.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    overflow: hidden;
+
+
+
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: #8294C4;
+  }
+
+
+  .header{
+            display: flex;
+            position: center;
+            align-items: center;
+  }
+  .TimerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 260px;
+    
+
+
+  }
+  #Status{
+    color:#ACB1D6;
+    font-size: 120%;
+
+
+  }
+  .SecondsDiv,
+  .MinutesDiv{
+    font-size: 60px; /* Adjust the font size as desired */
+    font-weight: bold;
+     padding: 10px;
+  border-radius: 10%; /* Make the boxes circular */
+  background-color: #F2F2F2; /* Add a background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+  color: #333333; /* Set the text color */
+  width: 80px; /* Adjust the width as desired */
+  height: 80px; /* Adjust the height as desired */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  }
+  .MinutesDiv{
+    background-color: #5F264A;
+  }
+  .SecondsDiv{
+    background-color: #643A6B;
+  }
+  .doublepoints
+  {
+    color: #8294C4;
+    font-size: 80px;
+  }
+
+
+.ResetButton,
+.StartButton {
+  background-color: #23f14f;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.StartButton:hover,
+.StartButton:focus {
+  background-color: #40f140;
+}
+.ResetButton:hover,
+.ResetButton:focus {
+  background-color: #f01f1f;
+}

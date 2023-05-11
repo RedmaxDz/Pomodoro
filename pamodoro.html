@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h2>Pamodoro</h2>
+    <h4 id="Status">Status:Paused</h4>
+    <section class="TimerSection">
+        <p><div class="MinutesDiv" >
+            <span id="Minutes">00</span>
+        </div>
+        <div class="doublepoints">:</div>
+        <div class="SecondsDiv">
+            <span id="Seconds" >00</span>
+        </div></section></p>
+            <p><button id="startButton" class="StartButton" >Start</button>
+            <button id="reset" class="ResetButton">Reset</button></p>
+    </section>
+    <audio id="notificationSound" src="beep.wav" preload="auto" muted></audio>
+</body>
+</html>
